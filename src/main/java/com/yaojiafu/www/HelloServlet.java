@@ -1,5 +1,7 @@
 package com.yaojiafu.www;
 
+import com.sun.jndi.ldap.sasl.LdapSasl;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -12,8 +14,8 @@ public class HelloServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("nihao01");
-        System.out.println("nihao02");
+
+        response.getWriter();
 
     }
 }
